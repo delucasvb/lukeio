@@ -1,0 +1,46 @@
+.section-portfolio {
+    background: #111;
+}
+
+.section-portfolio::before {
+    content: "";
+    background: linear-gradient(0deg, #111 0%, #333 100%);
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.section-portfolio p {
+    color: #CCC;
+}
+
+.section-portfolio .nav {
+    display: flex;
+    justify-content: center;
+}
+
+.section-portfolio .nav .nav-link {
+    color: #CCC;
+    border: 2px solid #222;
+    margin: 10px 20px;
+}
+
+.section-portfolio .nav .active {
+    background: transparent;
+    border: 2px solid #18ff91;
+}
+
+.projects-carousel {
+    background: #222;
+    padding: 20px;
+}
+
+.projects-carousel .carousel-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.projects-carousel h3 {
+    text-align: center;
+}

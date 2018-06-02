@@ -1,0 +1,11 @@
+.section-aboutme {
+    background: url("../../img/CV photo.jpg") no-repeat fixed center center;
+    background-size: cover;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .section-aboutme {
+        background-position: right center;
+    }
+}

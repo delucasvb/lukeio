@@ -1,0 +1,26 @@
+body {
+    /* Required for Bootstrap's scrollspy */
+    position: relative;
+
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Catamaran', Helvetica, sans-serif;
+    font-weight: 800 !important;
+}
+
+header {
+    height: 100vh;
+}
+
+@media (min-width: 992px) {
+    header, section {
+        height: 100vh;
+    }
+}

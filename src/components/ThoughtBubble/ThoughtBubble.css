@@ -1,0 +1,29 @@
+.thought-bubble {
+    border: 1px solid white;
+    color: black;
+    background: white;
+    margin: 50px auto;
+    box-shadow: 0 3px 10px #00000055;
+    border-radius: 3px;
+}
+
+.thought-bubble .thought-bubble-header {
+    text-align: center;
+    background: #207c00;
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.thought-bubble .thought-bubble-header [class*="fa-"] {
+    font-size: 5em;
+}
+
+.thought-bubble .thought-bubble-header h4 {
+    margin-top: 15px;
+}
+
+.thought-bubble p {
+    margin: 25px;
+}
