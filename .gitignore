@@ -64,5 +64,8 @@ typings/
 # next.js build output
 .next
 
+# WebStorm
+.idea
+
 # misc
 .DS_Store

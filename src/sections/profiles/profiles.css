@@ -1,0 +1,24 @@
+#profiles {
+    background: white linear-gradient(45deg, white 50%, red 50%);
+}
+
+#profiles i {
+    border: 1px solid blue;
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+}
+
+#profiles i.profile::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    z-index: -1;
+    background: red;
+    transform: rotate(45deg);
+}
