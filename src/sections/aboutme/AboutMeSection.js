@@ -76,7 +76,7 @@ class AboutMeSection extends Component {
                     <ThoughtBubble icon={ faBinoculars } title="What I'm Looking For">
                         <p>
                             I want to be part of a dynamic team, in a company with ambition and a clear vision. Being on
-                            the same line strategically is very important for me. I need to be able to believe in the
+                            the same line strategically is very important to me. I need to be able to believe in the
                             product. I'm eager to learn from experienced people and men and women with a different
                             background, culture or vision.
                         </p>
