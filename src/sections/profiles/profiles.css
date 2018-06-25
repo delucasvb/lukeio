@@ -1,26 +1,16 @@
 #profiles {
-    background: white linear-gradient(45deg, white 50%, red 50%);
+    background: white linear-gradient(45deg, white 50%, #ff1829 50%);
 }
 
 #profiles i {
-    position: relative;
-    z-index: 1;
+    background: url("data:image/gif;base64,R0lGODlhMwAzAKIAAP///+3t7eLi4tPT0////wAAAAAAAAAAACH5BAEAAAQALAAAAAAzADMAAAPPSLrczuPJSSsU0er9RgBBxo2WB5whqUrmiYrr2rpvLH80ndrcnLs7XsX3A8KEDmLRiOzglsVgk6CE6o68qvXa1G652efXKiV5x7ny5oxOY4fi9lc9Yct/9GT8Ps4v7HxRbwqAgYJOhollhYlLQYyNjhEDApGWGFR7lm2Pmptbi56fh3qjc4OZplB+hKKfrH+ukbAQsoa0DZB9qBS6ZLxwm7i9tqDAa8WSU6l8wz3JTMuxnMc2gM4xbNjWotthpNLBYOElT97LJufSlNXkSU0JADs=") center;
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+    line-height: 51px;
+    vertical-align: middle;
+    font-size: 1.3em;
     margin: 20px;
-}
-
-#profiles i.profile::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 50%;
-    left: 50%;
-    margin-top: -15px;
-    margin-left: -15px;
-    z-index: -1;
-    background: white;
-    transform: rotate(45deg);
-    border: 1px solid lightgray;
 }
 
 #profiles h2 {
