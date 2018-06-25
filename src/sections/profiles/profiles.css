@@ -3,7 +3,6 @@
 }
 
 #profiles i {
-    border: 1px solid blue;
     position: relative;
     z-index: 1;
     margin: 20px;
@@ -19,6 +18,11 @@
     margin-top: -15px;
     margin-left: -15px;
     z-index: -1;
-    background: red;
+    background: white;
     transform: rotate(45deg);
+    border: 1px solid lightgray;
+}
+
+#profiles h2 {
+    margin-top: 40px;
 }
