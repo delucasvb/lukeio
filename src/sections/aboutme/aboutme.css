@@ -4,8 +4,18 @@
     height: auto;
 }
 
+#head-circle {
+    display: none;
+}
+
 @media (max-width: 991px) {
     .section-aboutme {
-        background-position: right center;
+        background: linear-gradient(60deg, #6cc568 0%, #2983c0 100%) no-repeat scroll center center;
+    }
+
+    #head-circle {
+        display: block;
+        margin: 25px auto;
+        width: 60%;
     }
 }
