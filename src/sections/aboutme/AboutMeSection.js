@@ -15,9 +15,8 @@ class AboutMeSection extends Component {
                 <div className="offset-md-1 col-md-5 text-white">
                     <ThoughtBubble icon={ faAddressCard } title="Some Personalia">
                         <p>
-                            Working on a product is my passion. My neurons are structured around research, discovery and
-                            delivery. Discovering a new challenge, and later a new solution, gives me my dopamine. I'm
-                            always curious.
+                            Working on an idea is my passion. From brainstorm to research and discovery to
+                            implementation and delivery. After that, I'm already curious about the next problem.
                         </p>
                         <p>
                             <em>
@@ -47,7 +46,7 @@ class AboutMeSection extends Component {
                         <p>
                             I want to be part of a dynamic team, in a company with ambition and a clear vision. Being on
                             the same line strategically and philosophically is very important to me. I need to be able
-                            to believe in the idea and the product. I'm eager to learn from experienced people and men
+                            to believe in the idea and the mission. I'm eager to learn from experienced people and men
                             and women with a different background, culture or vision.
                         </p>
                     </ThoughtBubble>
