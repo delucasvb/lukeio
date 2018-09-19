@@ -29,7 +29,7 @@ class AboutMeSection extends Component {
                         <p>
                             Measure twice, cut once. I think before I do. Make diagrams, sketches, prototypes,...
                             Whatever works to validate an idea before actually spending hours on a dead end. I am
-                            addicted to quality: in the things that I use in my daily live, in what I imagine and in
+                            addicted to quality: in the things that I use in my daily life, in what I imagine and in
                             what I create.
                         </p>
                         <p>
