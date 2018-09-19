@@ -94,6 +94,13 @@ class PortfolioSection extends Component {
     ];
 
     personalProjects = [
+        { title: "Gotcha", content: (
+                <div>
+                    <p>
+                        Gotcha is a work in progress. It is a CAPTCHA breaker, trained using PyTorch on AWS GPU
+                        instances. It doesn't have much purpose except to help me learn more about PyTorch.
+                    </p>
+                </div>) },
         { title: "OCR Recipes", content: (
                 <div>
                     <p>
