@@ -1,5 +1,9 @@
+section {
+    height: auto;
+}
+
 #profiles {
-    background: white linear-gradient(45deg, white 50%, #ff1829 50%);
+    background: white linear-gradient(45deg, white 25%, #ff1829 25%, #ff1829 75%, white 75%);
 }
 
 #profiles i {

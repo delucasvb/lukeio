@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './aboutme.css'
 import faAddressCard from '@fortawesome/fontawesome-free-solid/faAddressCard'
-import faChess from '@fortawesome/fontawesome-free-solid/faChess'
+import faWrench from '@fortawesome/fontawesome-free-solid/faWrench'
 import faBinoculars from '@fortawesome/fontawesome-free-solid/faBinoculars'
 import ThoughtBubble from "../../components/ThoughtBubble/ThoughtBubble";
 import headCircle from "../../img/CV photo circle.png";
@@ -20,23 +20,22 @@ class AboutMeSection extends Component {
                         </p>
                         <p>
                             <em>
-                                I'm 27 years young and living in Ghent, one of the historical, cultural and academic
+                                I'm 30 years young and living in Ghent, one of the historical, cultural and academic
                                 hotspots in Belgium.
                             </em>
                         </p>
                     </ThoughtBubble>
-                    <ThoughtBubble icon={ faChess } title="A Bit About My Work">
+                    <ThoughtBubble icon={ faWrench } title="A Bit About My Work">
                         <p>
                             Measure twice, cut once. I think before I do. Make diagrams, sketches, prototypes,...
                             Whatever works to validate an idea before actually spending hours on a dead end. I am
-                            addicted to quality: in the things that I use in my daily life, in what I imagine and in
-                            what I create.
+                            addicted to quality: in the things that I use in my daily life and in what I create.
                         </p>
                         <p>
                             <em>
-                                I live by the scientific method. Today I try to study machine learning, physics and
-                                astrophysics, while my studies focused on math above all else. This solid basis helps me
-                                analyze problems and build a proven solution.
+                                My studies focused on math. This solid basis helps me analyze problems and build a
+                                proven solution. While on the bike, I think about problems that I haven't been able
+                                to solve otherwise.
                             </em>
                         </p>
                     </ThoughtBubble>

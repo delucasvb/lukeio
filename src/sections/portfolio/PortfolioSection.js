@@ -27,6 +27,82 @@ class PortfolioSection extends Component {
                         maintenance as well.
                     </p>
                 </div>) },
+        { title: "Robovision SDK", content: (
+                <div>
+                    <p>
+                        The Robovision AI platform is a distributed system tasked with labeling datasets and using
+                        those to train, test and deploy machine learning algorithms (called pipelines).
+                    </p>
+                    <p>
+                        The Robovision SDK is a toolbox for developers to create new machine learning algorithms
+                        (pipelines) that can then be installed on the platform to be used by operators and data
+                        scientists. My contributions to the SDK are mostly in planning and bugfixing of the
+                        integration with the platform.
+                    </p>
+                </div>) },
+        { title: "Robovision SDK Pipelines", content: (
+                <div>
+                    <p>
+                        This is my current project and team: the algorithms team. We are tasked with maintaining
+                        what we call "Tier 1 pipelines". These are machine learning algorithms that have general
+                        purpose and are ready to be used by any client. We also develop the tools required to
+                        create, test and publish these pipelines. That is where I make most of my contributions.
+                    </p>
+                    <p>
+                        Some of these tools ensure code quality and coherence with our shared repo.
+                    </p>
+                    <p>
+                        On the other hand we created a test framework that can easily be configured for any of
+                        these pipelines to test the compatibility within our platform. It can automatically train
+                        models and test their performance when deployed. It will also keep a log of their performance
+                        that we can use to track down regressions.
+                    </p>
+                    <p>
+                        We also have a similar suite focussed on running benchmarks for all pipelines. These
+                        benchmarks are automatically adapted to fit the needs of each pipeline. They are then run
+                        on different sets of hardware, with different parameters, and have their performance logged
+                        so that sales can communicate these numbers with potential clients.
+                    </p>
+                    <p>
+                        Then we have some internal tooling to make it easier to deploy specific versions of our
+                        platform to internal kubernetes clusters, installing whichever pipelines a developer might
+                        want to use and offering a few configurable parameters, all from an easy, visual wizard.
+                    </p>
+                </div>) },
+        { title: "Robovision AI", content: (
+                <div>
+                    <p>
+                        I contributed to various parts of the platform itself. In previous iterations I helped to
+                        develop and maintain the frontend and backend, from new pages and user tools in the frontend
+                        to new features in the logic layer of the backend. In later versions I mostly contributed to
+                        the backend.
+                    </p>
+                    <p>
+                        Currently, I'm not involved directly with development anymore, but since we have a different
+                        perspective and a lot of experience with the platform, my team and I help to track down and
+                        solve bugs from time to time.
+                    </p>
+                </div>) },
+        { title: "Robovision AI Store", content: (
+                <div>
+                    <p>
+                        The Robovision AI Store was a discontinued webstore where customers could share and sell their
+                        own machine learning models, trained and deployable on the Robovision AI Platform. This store
+                        was used internally for sharing models but eventually didn't make it into production because
+                        we prioritized further development of the platform itself.
+                    </p>
+                    <p>
+                        I contributed to the backend, which was a business layer that exposed an API to our frontend
+                        on one side, and performed actions against a standard webstore framework on the other end.
+                    </p>
+                    <p>
+                        I also contributed to the frontend, implementing designs from UX developers in VueJS.
+                    </p>
+                    <p>
+                        I was lead of this 2-man project before becoming team lead of the SDK. I communicated with UX
+                        developers in India, helped my colleague with development and reported progress to our CTO.
+                    </p>
+                </div>) },
         { title: "Algorithms for Lighting", content: (
                 <div>
                     <p>
@@ -88,17 +164,47 @@ class PortfolioSection extends Component {
                         critical acclaim for being much more reliable and flexible than solutions by competitors.
                     </p>
                     <p>
-                        Both services will be released by TELETASK later this year.
+                        Both services have since been officially released by TELETASK.
                     </p>
                 </div>) }
     ];
 
     personalProjects = [
-        { title: "Gotcha", content: (
+        { title: "S3 Photo Gallery", content: (
                 <div>
                     <p>
-                        Gotcha is a work in progress. It is a CAPTCHA breaker, trained using PyTorch on AWS GPU
-                        instances. It doesn't have much purpose except to help me learn more about PyTorch.
+                        This is a work in progress. The goal is to create a cheap photo backup solution, using Amazon's
+                        S3 storage. My frontend is written in React and allows users to login (using AWS User Pools),
+                        access their photos and upload new ones. The hope is to create and deploy this project using
+                        only AWS building blocks to cut costs. No custom backend, no virtual machines. The frontend
+                        is hosted on S3.
+                    </p>
+                </div>) },
+        { title: "Immo Notifier", content: (
+                <div>
+                    <p>
+                        Finding a house in Ghent is challenging. You need to be the first caller, first at the door and
+                        first to submit an offer. At least this is how it seemed while we were looking. It didn't help
+                        that we were looking for the same type of house as every one else: close to public transport yet
+                        with close parking spots, a garden, enough rooms to accomodate a family, rennovated and ready for
+                        use.
+                    </p>
+                    <p>
+                        I created a bot that scouts Immoweb every 5 minutes, looks for homes in the area that match our
+                        search criterea and sends us (me and my girlfriend) a notification with a summary and link when
+                        it finds one.
+                    </p>
+                    <p>
+                        We now have a house.
+                    </p>
+                </div>) },
+        { title: "Crypto Bots", content: (
+                <div>
+                    <p>
+                        These are fun projects to try and automate the buying and selling of alt coins at certain price
+                        signals. It has not been run against a real broker yet, since not every version has been great
+                        at... actually making profit. Though I continue to improve it and am getting close to a first
+                        working version.
                     </p>
                 </div>) },
         { title: "OCR Recipes", content: (
@@ -108,7 +214,7 @@ class PortfolioSection extends Component {
                         large collection of scans of recipes from cookbooks from family and our own library. The problem
                         is that images cannot be searched. That's why I ran our collection through an OCR algorithm and
                         loaded everything into an Apache Solr instance, an open source search engine. A responsive
-                        Angular frontend allows me and my girlfriend to search for chicken recipes whenever we have an
+                        Angular frontend allows me and my girlfriend to search for tofu recipes whenever we have an
                         urge for protein.
                     </p>
                 </div>) },
